@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "やさしいスケジュール",
+    "slug": "yasashii-schedule",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F5F3FF"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.notsu.yasashiischedule",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "音声で予定を登録するためにマイクを使用します。",
+        "NSSpeechRecognitionUsageDescription": "話しかけるだけで予定を追加するために音声認識を使用します.",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "plugins": [
+      "expo-notifications",
+      [
+        "expo-av",
+        {
+          "microphonePermission": "音声で予定を登録するためにマイクを使用します。"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "304d7954-4eec-4b6f-9989-2dc89a96e552"
+      }
+    },
+    "owner": "gontacompany"
+  }
+}
