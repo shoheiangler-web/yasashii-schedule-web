@@ -4,7 +4,6 @@
   },
   "build": {
     "production": {
-      "node": "22.15.0",
       "ios": {
         "resourceClass": "m-medium",
         "image": "macos-sequoia-15.5-xcode-16.4"
