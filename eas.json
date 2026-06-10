@@ -4,6 +4,7 @@
   },
   "build": {
     "production": {
+      "node": "22.15.0",
       "ios": {
         "resourceClass": "m-medium",
         "image": "latest"
