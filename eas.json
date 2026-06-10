@@ -5,7 +5,6 @@
   "build": {
     "production": {
       "ios": {
-        "resourceClass": "m-medium",
         "image": "macos-sequoia-15.5-xcode-16.4"
       }
     }
